@@ -99,7 +99,7 @@ print()
 
 ### GAIN 1
 # r_5 = 2.2e3
-gain1_target = 40
+gain1_target = 80
 gbw_LM6144 = 10e6 # 10 mhz gain bandwidth
 A = gbw_LM6144 / f_beacon # open loop gain
 
@@ -131,7 +131,7 @@ print()
 
 ### GAIN 2
 # r_5 = 2.2e3
-gain2_target = 9
+gain2_target = 20
 gbw_LM6144 = 10e6 # 10 mhz gain bandwidth
 A = gbw_LM6144 / f_beacon # open loop gain
 
